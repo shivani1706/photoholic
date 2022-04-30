@@ -1,5 +1,5 @@
 # photoholic
-a gallery website
+GALLERY WEBSITE 
 - made from scratch using HTML and CSS
 
 

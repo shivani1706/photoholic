@@ -28,24 +28,24 @@ body{
 h1 {
     font-family: "Sofia", sans-serif;
     
-    font-weight: 400;
+    font-weight: 500;
     color: rgb(32, 190, 211);
     font-size: 2.5rem;
     margin: -1rem;
     text-shadow: 3px 3px 3px white;
     cursor: pointer;
-    transition-duration: 0.5s;
+    transition-duration: 0.1s;
    
     
 }
 
 
-h1{
+/* h1{
     animation-name: heading-animation;
     animation-duration: 3.5s;
     animation-iteration-count: infinite;
     
-}
+} */
 
 @keyframes heading-animation{ 
      0%{font-size: 1.75rem;}

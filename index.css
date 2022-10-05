@@ -42,7 +42,7 @@ h1 {
 
 h1{
     animation-name: heading-animation;
-    animation-duration: 3s;
+    animation-duration: 3.5s;
     animation-iteration-count: infinite;
     
 }

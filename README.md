@@ -1,6 +1,6 @@
 # Photoholic
 PHOTOHOLIC 
-- It is a gallery website
+- It is a gallery website which can be used by passionate photographers as a showcase of their skill
 - Tech stack: HTML, CSS
 - Made from scratch
 

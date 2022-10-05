@@ -673,3 +673,18 @@ margin: 30px 0;
     display: block;
   }
  }
+ .footer{
+  background-color: rgb(70, 68, 68);
+  color: rgb(210, 162, 162);
+ }
+.subtitle{
+  background-color: rgb(65, 63, 63);
+}
+.container{
+  padding-top: 32px;
+  flex-wrap: wrap;
+  
+}
+.connect{
+  padding-top: 16px;
+}

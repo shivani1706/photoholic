@@ -154,11 +154,11 @@ nav a:focus {
 header::before {
     content: "";
     background-color: rgba(0, 0, 0, 1);
+    opacity: 0.9;
+    z-index: -1;
     position: absolute;
     height: 17%;
     width: 100%;
-    z-index: -1;
-    opacity: 0.9;
 }
 
 @media only screen and (max-width: 356px) {
@@ -329,13 +329,16 @@ header::before {
 }
 
 .quote {
-    font-size: 2rem;
-    width: 60%;
-    margin: 22px auto;
-    padding: 5rem 0px;
+    font-size: 4rem;
+    width: 1000px;
+    margin: 0px auto;
+    padding-top:7rem;
     text-align: center;
-    color: white;
+    color: black;
+    position:relative;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
+
 
 @media only screen and (max-width: 710px) {
     .quote {
@@ -521,6 +524,7 @@ header::before {
     }
 }
 
+
 .button {
     float: right;
     border: 2px solid black;
@@ -655,70 +659,87 @@ header::before {
         font-size: 1.9rem;
     }
 }
-
-.footer {
-    text-align: center;
-    justify-content: center;
+.wrapper .text{
+    font-size: 3rem;
 }
 
-.quote-footer {
+.footer-txt {
+    color:black;
+    display: block;
     font-size: 1.5rem;
     font-weight: 500;
     font-family: "Baloo Bhai 2", cursive;
     background-color: whitesmoke;
 }
-
-.fa {
-    padding: 10px;
-    font-size: 10px;
-    width: 20px;
+.footer .col-group{
+    margin-top:150px;
+    width: 100%;
+    padding:100px 15px;
+    background:#333;
+    color:#efefef;
+    display:flex;
+}
+.footer div{
     text-align: center;
+}
+.col-1{
+    flex-grow: 1;
+}
+.col-2{
+    flex-grow: 2;
+    margin-left: 20rem;
+    margin-top:3rem;
+}
+.col-3{
+    flex-grow:3;
+    margin-left:10rem;
+    margin-top:3rem;
+}
+
+.footer div h3{
+    font-weight: 300;
+    margin-bottom:30px;
+    letter-spacing: 1px ;
+
+}
+
+.col-1 a{
+    display: block;
     text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 30rem;
+    color:#efefef;
+    margin-bottom:10px;
+}
+.social-icons{
+    margin-top:30px;
+}
+.social-icons i{
+    font-size: 1.5rem;
+    margin:10px;
+    cursor:pointer;
+}
+.social-icons i:hover{
+    font-size: 3rem;
+    margin:10px;
+    cursor:pointer;
+    transition: all 0.2s ease-in-out;
 }
 
-.fa:hover {
-    opacity: 0.7;
-}
 
-.fa-facebook {
-    background: #3b5998;
-    color: white;
-}
+.col-2 h3{
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(32, 190, 211);
+ 
 
-.fa-twitter {
-    background: #55acee;
-    color: white;
+  
 }
-
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-}
-
-.fa-youtube {
-    background: #bb0000;
-    color: white;
-}
-
-.fa-instagram {
-    background: #125688;
-    color: white;
-}
-
-.fa-pinterest {
-    background: #cb2027;
-    color: white;
-}
-
-.shivani {
+#shivani h3 {
     font-size: 2rem;
     font-family: "Kaushan Script", cursive;
 }
 
 @media only screen and (max-width: 330px) {
-    .shivani {
+    #shivani h3{
         font-size: 1.5rem;
     }
 }

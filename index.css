@@ -678,22 +678,25 @@ header::before {
     background:#333;
     color:#efefef;
     display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .footer div{
     text-align: center;
 }
 .col-1{
     flex-grow: 1;
+    width: 33%;
 }
 .col-2{
     flex-grow: 2;
-    margin-left: 20rem;
-    margin-top:3rem;
+    width: 33%;
+  
 }
 .col-3{
     flex-grow:3;
-    margin-left:10rem;
-    margin-top:3rem;
+    width: 33%;
 }
 
 .footer div h3{

@@ -196,6 +196,7 @@ header::before {
 
 .dropdown-content a:hover {
     background-color: rgb(221, 235, 232);
+    cursor: pointer;
 }
 
 .dropdown:hover .dropdown-content {

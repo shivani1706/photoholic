@@ -6,21 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photoholic : chase your dreams</title>
-    <!-- <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-      crossorigin="anonymous"
-    /> -->
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <!-- <script src="index.js" charset="utf-8"></script> -->
+
+<style media="screen">
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat','Ubuntu', sans-serif;
+    background-color: white;
+
+}
+</style>
 
 
 </head>
@@ -38,8 +40,8 @@ HEADER
     <header><br><br>
         <div class="container container-nav">
             <div>
-                <div class="title">
-                    <h1>Photoholic</h1>
+                <div>
+                    <h1 class="title">Photoholic</h1>
                 </div>
                 <div class="subtitle">
                     <p>
@@ -121,11 +123,12 @@ CAPTURING THE CAPTURE
 ============= -->
     <section class="camera">
         <div class="heading-ctc">
-            <P>CAPTURING&ensp; THE&ensp; CAPTURE</P>
+            <p id="p-heading">CAPTURING&ensp; THE&ensp; CAPTURE</p>
             <hr class="hr">
         </div>
+
         <div class="container-ctc">
-            <div class="card">
+            <div class="card zoom">
                 <img class="imagee" src="images/cam1.webp">
                 <div class="overlay1">
                     <a href="images/cam1.webp" download><input class="right button" type="button" value="SAVE"></a>
@@ -142,7 +145,7 @@ CAPTURING THE CAPTURE
                     <input class="right button" type="button" value="VOTE"></a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card zoom">
                 <img class="imagee" src="images/cam2.webp">
                 <div class="overlay1">
                     <a href="images/cam2.webp" download><input class="right button" type="button" value="SAVE"></a>
@@ -159,7 +162,7 @@ CAPTURING THE CAPTURE
                     <input class="right button" type="button" value="VOTE"></a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card zoom">
                 <img class="imagee" src="images/cam3.webp">
                 <div class="overlay1">
                     <a href="images/cam3.webp" download><input class="right button" type="button" value="SAVE"></a>
@@ -176,7 +179,7 @@ CAPTURING THE CAPTURE
                     <input class="right button" type="button" value="VOTE"></a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card zoom">
                 <img class="imagee" src="images/cam4.webp">
                 <div class="overlay1">
                     <a href="images/cam4.webp" download><input class="right button" type="button" value="SAVE"></a>
@@ -193,7 +196,7 @@ CAPTURING THE CAPTURE
                     <input class="right button" type="button" value="VOTE"></a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card zoom">
                 <img class="imagee" src="images/cam5.webp">
                 <div class="overlay1">
                     <a href="images/cam5.webp" download><input class="right button" type="button" value="SAVE"></a>
@@ -216,14 +219,75 @@ CAPTURING THE CAPTURE
     <!-- =========
 ADD page
 ======== -->
-    <section class="ad-page">
+    <!-- <section class="ad-page">
         <div class="quote photo-quote">
             <span class="photograaphy">PHOTOGRAPHY</span> has no rules,<br> it is not a sport<br><br> It is the result which counts ,no matter how it is achieved.
 
         </div>
 
-    </section>
+    </section> -->
+    <section>
 
+
+    <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="images/quote1.png" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/quote2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/quote3.png" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/quote4.png" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="images/quote5.png" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="images/quote6.png" style="width:100%">
+    </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+    <script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 4 seconds
+    }
+    </script>
+
+      </section>
 
 
     <!-- =============
@@ -231,11 +295,12 @@ TEMPTING TEMPTATIONS
 ============= -->
     <section class="camera">
         <div class="heading-ctc">
-            <P>TEMPTING&ensp; TEMPTATIONS</P>
+            <p id="p-heading2">TEMPTING&ensp; TEMPTATIONS</p>
             <hr class="hr">
         </div>
+
         <div class="container-ctc">
-            <div class="card">
+            <div class="card zoom">
                 <img class="imagee" src="images/food1.webp">
                 <div class="overlay1">
                     <a href="images/food1.webp" download><input class="right button" type="button" value="SAVE"></a>
@@ -252,7 +317,7 @@ TEMPTING TEMPTATIONS
                     <input class="right button" type="button" value="VOTE"></a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card zoom">
                 <img class="imagee" src="images/food2.webp">
                 <div class="overlay1">
                     <a href="images/food2.webp" download><input class="right button" type="button" value="SAVE"></a>
@@ -269,7 +334,7 @@ TEMPTING TEMPTATIONS
                     <input class="right button" type="button" value="VOTE"></a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card zoom">
                 <img class="imagee" src="images/food3.webp">
                 <div class="overlay1">
                     <a href="images/food3.webp" download><input class="right button" type="button" value="SAVE"></a>
@@ -286,7 +351,7 @@ TEMPTING TEMPTATIONS
                     <input class="right button" type="button" value="VOTE"></a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card zoom">
                 <img class="imagee" src="images/food4.webp">
                 <div class="overlay1">
                     <a href="images/food4.webp" download><input class="right button" type="button" value="SAVE"></a>
@@ -303,7 +368,7 @@ TEMPTING TEMPTATIONS
                     <input class="right button" type="button" value="VOTE"></a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card zoom">
                 <img class="imagee" src="images/food5.webp">
                 <div class="overlay1">
                     <a href="images/food5.webp" download><input class="right button" type="button" value="SAVE"></a>
@@ -320,7 +385,7 @@ TEMPTING TEMPTATIONS
                     <input class="right button" type="button" value="VOTE"></a>
                 </div>
             </div>
-                <div class="card">
+                <div class="card zoom">
                 <img class="imagee" src="images/food6.webp">
                 <div class="overlay1">
                     <a href="food6.webp" download><input class="right button" type="button" value="SAVE"></a>
@@ -337,7 +402,7 @@ TEMPTING TEMPTATIONS
                     <input class="right button" type="button" value="VOTE"></a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card zoom">
                 <img class="imagee" src="images/food7.webp">
                 <div class="overlay1">
                     <a href="food7.webp" download><input class="right button" type="button" value="SAVE"></a>
@@ -355,43 +420,24 @@ TEMPTING TEMPTATIONS
                 </div>
             </div>
         </div>
+
+
+        <button onclick="myFunction()" class="btn  darkMode">Toggle dark mode</button>
     </section><br><br><br><br>
+
+
+<!-- btn-outline-light btn-lg -->
+
     <hr>
 
-
-
-    <!-- ======
-footer-section
-====== -->
-
-    <!-- <section class="footer">
-        <div class="quote-footer">
-            CHASE YOUR DREAMS... BE PHOTOHOLIC...
-        </div>
-        <div>
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-linkedin"></a>
-            <a href="#" class="fa fa-youtube"></a>
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-pinterest"></a>
-        </div><br><br>
-        <div class="shivani">
-            Designed by : SHIVANI SARASWAT<br><br><br></div>
-        </div>
-
-    </section> -->
-
-    <!-- Remove the container if you want to extend the Footer to full width. -->
-
     <!-- Footer -->
-    <footer class="text-center text-white" style="background-color: #3f51b5">
+    <footer class="text-center text-white">
       <!-- Grid container -->
       <div class="containerx">
         <!-- Section: Links -->
         <section class="mt-5">
           <!-- Grid row-->
-          <div class="social type row text-center d-flex justify-content-center pt-5" 
+          <div class="social type row text-center d-flex justify-content-center pt-5"
           style="margin-left: 20vw;
                 ">
             <!-- Grid column -->
@@ -401,7 +447,7 @@ footer-section
               </h6>
             </div>
             <!-- Grid column -->
-  
+
             <!-- Grid column -->
             <div class="col-md-2">
               <h6 class="text-uppercase font-weight-bold">
@@ -409,7 +455,7 @@ footer-section
               </h6>
             </div>
             <!-- Grid column -->
-  
+
             <!-- Grid column -->
             <div class="col-md-2">
               <h6 class="text-uppercase font-weight-bold">
@@ -417,7 +463,7 @@ footer-section
               </h6>
             </div>
             <!-- Grid column -->
-  
+
             <!-- Grid column -->
             <div class="col-md-2">
               <h6 class="text-uppercase font-weight-bold">
@@ -425,7 +471,7 @@ footer-section
               </h6>
             </div>
             <!-- Grid column -->
-  
+
             <!-- Grid column -->
             <div class="col-md-2">
               <h6 class="text-uppercase font-weight-bold">
@@ -437,9 +483,9 @@ footer-section
           <!-- Grid row-->
         </section>
         <!-- Section: Links -->
-  
+
         <hr class="my-5" />
-  
+
         <!-- Section: Text -->
         <section class="mb-5">
           <div class="text row d-flex justify-content-center">
@@ -454,7 +500,7 @@ footer-section
           </div>
         </section>
         <!-- Section: Text -->
-  
+
         <!-- Section: Social -->
        <center> <section class="text-center mb-5">
         <div class="social">
@@ -483,22 +529,33 @@ footer-section
       </div>
       <!-- Grid container -->
       <br><br>
-      <div class="shivani">
+      <!-- <div class="shivani">
        <center> Designed by : SHIVANI SARASWAT</center><br></div>
-    </div>
-  
+    </div> -->
+
       <!-- Copyright -->
       <div class="text-center p-3 rest" style="background-color: rgba(0, 0, 0, 0.2)">
-        
-        <center><p>© 2020 Copyright:</p></center>
-          
+
+        <center><p>Copyright:  &#169; SHIVANI SARASWAT &#8482; 2022</p></center>
+
       </div>
       <!-- Copyright -->
     </footer>
     <!-- Footer -->
-  
+
   <!-- End of .container -->
 
-</body>
+  <script>
+console.log("hello world");
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+   var heading = document.getElementById("p-heading");
+   heading.classList.toggle("p-dark");
+   var heading2 = document.getElementById("p-heading2");
+   heading2.classList.toggle("p-dark");
+}
+  </script>
 
+</body>
 </html>

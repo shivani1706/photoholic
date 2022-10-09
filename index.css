@@ -10,6 +10,7 @@ body {
 =========== */
 
 .container {
+    padding: 60px 0;
     width: 90%;
     max-width: 900px;
     margin: 0 auto;
@@ -112,9 +113,10 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
+    padding: 0;
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 428px) {
     #menu-icon {
         display: none;
     }
@@ -155,7 +157,7 @@ header::before {
     content: "";
     background-color: rgba(0, 0, 0, 1);
     position: absolute;
-    height: 17%;
+    height: 50%;
     width: 100%;
     z-index: -1;
     opacity: 0.9;

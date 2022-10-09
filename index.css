@@ -797,6 +797,13 @@ header::before {
   margin-left: 16vw;
   margin-right: 16vw;
  }
+
+@media screen and (max-width: 428px) {
+    .containerx {
+        font-size: small;
+    }
+}
+
  .text-white{
   text-decoration: none;
   color: white;
@@ -804,7 +811,7 @@ header::before {
  .social{
   display: flex;
   gap:3vw;
-  margin-left: 17vw;
+  justify-content: center;
  }
  .rest{
   display: flex;

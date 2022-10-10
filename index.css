@@ -1,13 +1,24 @@
-body {
-    margin: 0;
-    font-family: sans-serif;
-    /* background: rgba(230, 225, 225,0.35); */
+.dark-mode {
+  background-color: #303030;
+}
+/* .heading-ctc-darkmode{
+  color: white;
+} */
+
+.p-dark{
+  color: white;
 }
 
+.zoom {
+  transition: transform .3s;
+}
 
-/* ===========
-  typography
-=========== */
+.zoom:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  border: none;
+}
 
 .container {
     padding: 60px 0;
@@ -28,24 +39,19 @@ body {
     }
 }
 
+
 h1 {
-    font-family: "Sofia", sans-serif;
-    font-weight: 500;
+    font-weight: 800;
     color: rgb(32, 190, 211);
     font-size: 2.5rem;
     margin: -1rem;
     text-shadow: 3px 3px 3px white;
     cursor: pointer;
     transition-duration: 0.1s;
+    position: absolute;
+    left:50px;
 }
 
-
-/* h1{
-    animation-name: heading-animation;
-    animation-duration: 3.5s;
-    animation-iteration-count: infinite;
-    
-} */
 
 @keyframes heading-animation {
     0% {
@@ -99,20 +105,17 @@ h1 {
     color: rgb(79, 115, 109);
     font-size: 0.75rem;
     margin: 0;
+  /* position: absolute; */
 }
 
-
-/* ===========
-  layout
-=========== */
-
-
-/* navigation */
 
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
+    position: absolute;
+    right: 0;
+    margin-top: 0;
     padding: 0;
 }
 
@@ -145,7 +148,7 @@ nav a {
 
 nav a:hover,
 nav a:focus {
-    color: rgb(135, 86, 232);
+    color:white;
 }
 
 .current-page {
@@ -171,7 +174,7 @@ header::before {
 
 .current-page:hover,
 .current-page:focus {
-    border-bottom: 0.15em solid rgb(135, 86, 232);
+    border-bottom: 0.15em solid white;
     border-radius: 0.2em;
 }
 
@@ -256,11 +259,15 @@ header::before {
 
 .menu-icon {
     background-color: white;
-    margin: 0.3rem 3rem;
-    padding: 0.15rem 0.5rem;
+    /* margin: 0.3rem 3rem; */
+    margin: 2rem 3rem;
+      padding: 0.5rem;
     cursor: pointer;
-    margin-left: 3rem;
     border-radius: 0.25rem;
+    margin-top: 0;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    margin-left: 20px;
 }
 
 .menu-icon:hover {
@@ -301,13 +308,6 @@ header::before {
 }
 
 
-/* hr{
-    width: 90%;
-    margin: 0 auto;
-    height: 0.15rem;
-    border-radius: 1rem;
-    background-color: rgba(135, 86, 232,0.5);
-  } */
 
 .landing-page {
     display: flex;
@@ -337,6 +337,7 @@ header::before {
     padding: 5rem 0px;
     text-align: center;
     color: white;
+    line-height: 2;
 }
 
 @media only screen and (max-width: 710px) {
@@ -362,18 +363,6 @@ header::before {
     color: white;
     font-size: 2.5rem;
 }
-
-
-/* .btn {
-  font-size: 2rem;
-  border-radius: 0.8rem;
-  cursor: pointer;
-  padding: 1rem 1rem;
-  margin: 1rem auto;
-} */
-
-
-/*button*/
 
 .btn {
     align-items: center;
@@ -403,6 +392,7 @@ header::before {
     white-space: nowrap;
     will-change: box-shadow, transform;
     font-size: 18px;
+    margin-top: 50px;
 }
 
 .btn:focus {
@@ -444,17 +434,24 @@ header::before {
 }
 
 
-/* .btn:hover {
-  font-size: 2.25rem;
-  background-color: gainsboro;
-} */
-
 .heading-ctc {
     font-size: 4rem;
-    font-family: "Baloo Bhai 2", cursive;
     margin: 6rem auto;
     text-align: center;
+    padding: 10px;
+    margin-top: -30px;
+    margin-bottom: 10px;
 }
+
+/* .heading-ctc-darkmode {
+    font-size: 4rem;
+    margin: 6rem auto;
+    text-align: center;
+    padding: 10px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    color: white;
+} */
 
 @media only screen and (max-width: 440px) {
     .heading-ctc {
@@ -629,7 +626,6 @@ header::before {
 }
 
 .photograaphy {
-    font-family: "Baloo Bhai 2", cursive;
     color: black;
     font-size: 3.7rem;
 }
@@ -666,7 +662,6 @@ header::before {
 .quote-footer {
     font-size: 1.5rem;
     font-weight: 500;
-    font-family: "Baloo Bhai 2", cursive;
     background-color: whitesmoke;
 }
 
@@ -716,7 +711,7 @@ header::before {
 
 .shivani {
     font-size: 2rem;
-    font-family: "Kaushan Script", cursive;
+    /* font-family: "Kaushan Script", cursive; */
 }
 
 @media only screen and (max-width: 330px) {
@@ -743,6 +738,9 @@ header::before {
     text-align: center;
 }
 
+footer{
+  background-color: #36454f
+}
 .right {
     background-color: rgb(108, 108, 218);
     border: hotpink;
@@ -791,7 +789,7 @@ header::before {
   }
  }
  .containerx{
-  background-color: #3f51b5;
+  background-color: #36454f;
   text-align: center;
   font-size:large;
   margin-left: 16vw;
@@ -810,6 +808,8 @@ header::before {
  }
  .social{
   display: flex;
+  gap: 3vw;
+  margin-left: 17vw;
   gap:3vw;
   justify-content: center;
  }
@@ -821,3 +821,55 @@ header::before {
         display: block;
     }
 
+
+
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+
+
+    /* The dots/bullets/indicators */
+    .dot {
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+      opacity:0;
+    }
+
+    .active {
+      background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .text {font-size: 11px}
+    }
+
+.camera{
+  position: relative;
+}
+
+.darkMode{
+  margin: 0;
+ position: absolute;
+ right: 45%;
+ left: 45%;
+ border: none;
+}

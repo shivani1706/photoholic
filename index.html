@@ -38,7 +38,7 @@ HEADER
 
 
     <header>
-        <div class="container container-nav">
+        <div class="container container-nav ">
             <div>
                 <div>
                     <h1 class="title">Photoholic</h1>
@@ -574,6 +574,20 @@ function myFunction() {
    var heading2 = document.getElementById("p-heading2");
    heading2.classList.toggle("p-dark");
 }
+    // NavBar
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("navbar");
+
+    var sticky = navbar.offsetTop;
+    function myFunction() {
+    if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+    } else {
+        navbar.classList.remove("sticky");
+    }
+    }
+    
   </script>
 
 </body>

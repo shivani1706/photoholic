@@ -5,12 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Form</title>
     <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <script
       src="https://kit.fontawesome.com/64d58efce2.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
+    <header><br><br>
+      <div class="container2 container2-nav">
+          <div>
+              <div class="title">
+                  <h1>Photoholic</h1>
+              </div>
+              <div class="subtitle2">
+                  <p>
+                      CHASE YOUR DREAMS...
+                  </p>
+              </div>
+          </div>
+
+          <nav>
+              <ul class="nav-list">
+                  <li><a class="current-page" href="index.html">Home</a></li><br class="hide">
+                  <div class="dropdown">
+                      <li><a>About</a></li><br class="hide">
+                      <div class="dropdown-content">
+                          <a href="contact.html" class="list-item-1">Contact</a>
+                          <a class="list-item-2">Follow</a>
+                          <a class="list-item-3">Terms & Conditions</a>
+                      </div>
+                  </div>
+                  <div class="dropdown">
+                      <li><a href="">Login</a></li><br class="hide">
+                      <div class="dropdown-content">
+                          <a class="list-item-1">Sign-in</a>
+                          <a class="list-item-2">Sign-up</a>
+
+                      </div>
+
+                  </div>
+                  <div id="menu-icon" onclick="openNav()" class="menu-icon">&#9776;</div>
+                  <div id="mySidenav" class="sidenav">
+                      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                      <a href="#">About</a><br>
+                      <a href="#">Services</a><br>
+                      <a href="#">Clients</a><br>
+                      <a href="contact.html">Contact</a><br>
+                      <a href="#">Terms & Conditions</a><br>
+                      <a href="#">Feedback</a><br>
+                      <a href="#">Stay Updated</a><br>
+                      <a href="#">Complaints</a><br>
+
+                  </div>
+
+
+
+                  <script>
+                      function openNav() {
+                          document.getElementById("mySidenav").style.width = "250px";
+                          document.getElementById("menu-icon").style.marginLeft = "250px";
+                      }
+
+                      function closeNav() {
+                          document.getElementById("mySidenav").style.width = "0";
+                          document.getElementById("menu-icon").style.marginLeft = "0";
+                      }
+                  </script>
+              </ul>
+          </nav>
+      </div>
+  </header><br><br>
+
     <div class="container">
       <span class="big-circle"></span>
       <img src="img/shape.png" class="square" alt="" />

@@ -17,7 +17,3 @@ This is how photo section-2 looks like
 ![Screenshot (616)](https://user-images.githubusercontent.com/77433607/194158088-f0136da2-1cce-43b3-a758-e47a1f9c4a6b.png)
 
 
-![Screenshot (626)](https://user-images.githubusercontent.com/115687497/195513574-6600ba60-46e7-49fb-b94f-328386e3eeff.png)
-![Screenshot (625)](https://user-images.githubusercontent.com/115687497/195514117-def68387-354e-406b-83e6-54d2fb331292.png)
-![Screenshot (624)](https://user-images.githubusercontent.com/115687497/195514303-709d5d37-5889-49d4-8eef-1d1cbf264e81.png)
-![Screenshot (623)](https://user-images.githubusercontent.com/115687497/195514465-8f1f73d8-7783-4829-a42f-550b7e270c34.png)

@@ -17,3 +17,4 @@ This is how photo section-2 looks like
 ![Screenshot (616)](https://user-images.githubusercontent.com/77433607/194158088-f0136da2-1cce-43b3-a758-e47a1f9c4a6b.png)
 
 
+![Screenshot (626)](https://user-images.githubusercontent.com/115687497/195515529-3c79bd01-0bf0-45ef-b963-fca6162199ab.png)

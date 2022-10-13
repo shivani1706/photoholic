@@ -19,3 +19,4 @@ This is how photo section-2 looks like
 
 ![Screenshot (626)](https://user-images.githubusercontent.com/115687497/195515529-3c79bd01-0bf0-45ef-b963-fca6162199ab.png)
 ![Screenshot (625)](https://user-images.githubusercontent.com/115687497/195516296-bcb9bf58-d98a-49b1-9034-a65d56358eac.png)
+![Screenshot (624)](https://user-images.githubusercontent.com/115687497/195516454-bc60d7d8-81e9-4311-a3b8-35d473b4990b.png)

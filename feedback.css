@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.center{
+  width: auto;
+  height: auto;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  border: 0px solid black;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.left{
+  width: inherit;
+  background-color: white;
+  display: inline-block;
+  padding: 20px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.right{
+  width: auto;
+  background-color:#0BDA51 ;
+  display: inline-block;
+  padding: 30px;
+  margin-top:0;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.icon{
+  padding: 10px;
+  border: 0px solid black;
+  border-radius: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+form{
+  padding: 30px;
+  height: inherit;
+}
+
+.input{
+  padding: 10px;
+}
+
+.input-box{
+  width: 400px;
+  padding:10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 0px solid black;
+  border-radius: 5px;
+}
+
+.btn{
+  width:100px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 0px solid black;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+}
+.btn:hover{
+  background-color: green;
+}
+
+.object1{
+  width: 200px;
+  height:200px;
+  background-color: #0BDA51;
+  border: 0 solid black;
+  border-radius: 20px;
+  position: absolute;
+  left: 332px;
+  top: 50px;
+}
+.ob1{
+  background-color: white;
+  width: 150px;
+  height:150px;
+  border: 0 solid black;
+  border-radius: 20px;
+  margin: auto;
+  position: relative;
+  top: 25px;
+}
+
+.object2{
+  width: 300px;
+  height: 300px;
+  background-color: #0BDA51;
+  border: 0 solid black;
+  border-radius: 20px;
+  position: absolute;
+  left: 900px;
+  top: 380px;
+}
+.ob2{
+  background-color: white;
+  width: 220px;
+  height:220px;
+  border: 0 solid black;
+  border-radius: 20px;
+  margin: auto;
+  position: relative;
+  top: 42px;
+}
+
+.zoom {
+transition: transform .3s;
+  }
+
+.zoom:hover {
+  -ms-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+.zoom2 {
+ transition: transform .5s;
+   }
+
+ .zoom2:hover {
+   -ms-transform: scale(1.1);
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+ }

@@ -21,3 +21,6 @@ This is how photo section-2 looks like
 ![Screenshot (625)](https://user-images.githubusercontent.com/115687497/195516296-bcb9bf58-d98a-49b1-9034-a65d56358eac.png)
 ![Screenshot (624)](https://user-images.githubusercontent.com/115687497/195516454-bc60d7d8-81e9-4311-a3b8-35d473b4990b.png)
 ![Screenshot (623)](https://user-images.githubusercontent.com/115687497/195516611-273e1246-d708-4ca9-bad9-7099b91c17eb.png)
+![s3](https://user-images.githubusercontent.com/86938309/195661481-7c1ff07b-1fdc-4c3f-ab0f-4fa09e71a882.png)
+![s2](https://user-images.githubusercontent.com/86938309/195661520-b815a5d8-fe56-465d-bd63-292f0468f267.png)
+![s1](https://user-images.githubusercontent.com/86938309/195661547-261f7356-a33e-471b-8f1f-cf7b2e39a8e6.png)

@@ -13,16 +13,16 @@
     <link rel="icon" type="image/x-icon" href="images/icon.png">
     <!-- <script src="index.js" charset="utf-8"></script> -->
 
-<style media="screen">
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+    <style media="screen">
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
-body {
-    margin: 0;
-    font-family: 'Montserrat','Ubuntu', sans-serif;
-    background-color: white;
+        body {
+            margin: 0;
+            font-family: 'Montserrat', 'Ubuntu', sans-serif;
+            background-color: white;
 
-}
-</style>
+        }
+    </style>
 
 
 </head>
@@ -39,15 +39,19 @@ HEADER
 
     <header>
         <div class="container container-nav">
-            <div>
-                <div>
+            
+                <div class="logo-container">
+                    <div class="logo">
+                        <img src="images/Photoholic_logo-2.png">
+                    </div>
                     <h1 class="title">Photoholic</h1>
-                </div>
-                <div class="subtitle">
-                    <p>
-                        CHASE YOUR DREAMS...
-                    </p>
-                </div>
+                    <div class="subtitle">
+                        <p>
+                            CHASE YOUR DREAMS...
+                        </p>
+                    </div>
+               
+
             </div>
 
             <nav>
@@ -111,7 +115,8 @@ landing page
 
     <section class="landing-page">
         <div class="quote">
-            You need somebody who is going to tell you that YES!<br> you should consider that and that's what we do as <br><span class="galleries">GALLERIES</span> <br>
+            You need somebody who is going to tell you that YES!<br> you should consider that and that's what we do as
+            <br><span class="galleries">GALLERIES</span> <br>
             <button class="btn">REGISTER NOW !</button>
         </div>
 
@@ -246,65 +251,65 @@ ADD page
     <section>
 
 
-    <div class="slideshow-container">
+        <div class="slideshow-container">
 
-    <div class="mySlides fade">
-      <img src="images/quote1.png" style="width:100%">
-    </div>
+            <div class="mySlides fade">
+                <img src="images/quote1.png" style="width:100%">
+            </div>
 
-    <div class="mySlides fade">
-      <img src="images/quote2.jpg" style="width:100%">
-    </div>
+            <div class="mySlides fade">
+                <img src="images/quote2.jpg" style="width:100%">
+            </div>
 
-    <div class="mySlides fade">
-      <img src="images/quote3.png" style="width:100%">
-    </div>
+            <div class="mySlides fade">
+                <img src="images/quote3.png" style="width:100%">
+            </div>
 
-    <div class="mySlides fade">
-      <img src="images/quote4.png" style="width:100%">
-    </div>
-    <div class="mySlides fade">
-      <img src="images/quote5.png" style="width:100%">
-    </div>
-    <div class="mySlides fade">
-      <img src="images/quote6.png" style="width:100%">
-    </div>
+            <div class="mySlides fade">
+                <img src="images/quote4.png" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/quote5.png" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/quote6.png" style="width:100%">
+            </div>
 
-    </div>
-    <br>
+        </div>
+        <br>
 
-    <div style="text-align:center">
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-    </div>
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
 
-    <script>
-    let slideIndex = 0;
-    showSlides();
+        <script>
+            let slideIndex = 0;
+            showSlides();
 
-    function showSlides() {
-      let i;
-      let slides = document.getElementsByClassName("mySlides");
-      let dots = document.getElementsByClassName("dot");
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      slideIndex++;
-      if (slideIndex > slides.length) {slideIndex = 1}
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " active";
-      setTimeout(showSlides, 2000); // Change image every 4 seconds
-    }
-    </script>
+            function showSlides() {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) { slideIndex = 1 }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                setTimeout(showSlides, 2000); // Change image every 4 seconds
+            }
+        </script>
 
-      </section>
+    </section>
 
 
     <!-- =============
@@ -402,7 +407,7 @@ TEMPTING TEMPTATIONS
                     <input class="right button" type="button" value="VOTE"></a>
                 </div>
             </div>
-                <div class="card zoom">
+            <div class="card zoom">
                 <img class="imagee" src="images/food6.webp">
                 <div class="overlay1">
                     <a href="food6.webp" download><input class="right button" type="button" value="SAVE"></a>
@@ -443,138 +448,142 @@ TEMPTING TEMPTATIONS
     </section><br><br><br><br>
 
 
-<!-- btn-outline-light btn-lg -->
+    <!-- btn-outline-light btn-lg -->
 
     <hr>
 
     <!-- Footer -->
     <footer class="text-center text-white">
-      <!-- Grid container -->
-      <div class="containerx">
-        <!-- Section: Links -->
-        <section class="mt-5">
-          <!-- Grid row-->
+        <!-- Grid container -->
+        <div class="containerx">
+            <!-- Section: Links -->
+            <section class="mt-5">
+                <!-- Grid row-->
 
-          <div class="social type row text-center d-flex justify-content-center pt-5"
-          style="margin-left: 20vw;">
+                <div class="social type row text-center d-flex justify-content-center pt-5" style="margin-left: 20vw;">
 
-          <div class="social type row text-center d-flex justify-content-center pt-5">
-          <!-- Grid column -->
-            <div class="col-md-2 text">
-              <h6 class="text-uppercase font-weight-bold">
-                <a href="#!" class="text-white">About us</a>
-              </h6>
-            </div>
-            <!-- Grid column -->
+                    <div class="social type row text-center d-flex justify-content-center pt-5">
+                        <!-- Grid column -->
+                        <div class="col-md-2 text">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="#!" class="text-white">About us</a>
+                            </h6>
+                        </div>
+                        <!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="col-md-2">
-              <h6 class="text-uppercase font-weight-bold">
-                <a href="#!" class="text-white">Products</a>
-              </h6>
-            </div>
-            <!-- Grid column -->
+                        <!-- Grid column -->
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="#!" class="text-white">Products</a>
+                            </h6>
+                        </div>
+                        <!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="col-md-2">
-              <h6 class="text-uppercase font-weight-bold">
-                <a href="#!" class="text-white">Awards</a>
-              </h6>
-            </div>
-            <!-- Grid column -->
+                        <!-- Grid column -->
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="#!" class="text-white">Awards</a>
+                            </h6>
+                        </div>
+                        <!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="col-md-2">
-              <h6 class="text-uppercase font-weight-bold">
-                <a href="#!" class="text-white">Help</a>
-              </h6>
-            </div>
-            <!-- Grid column -->
+                        <!-- Grid column -->
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="#!" class="text-white">Help</a>
+                            </h6>
+                        </div>
+                        <!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="col-md-2">
-              <h6 class="text-uppercase font-weight-bold">
-                <a href="index.html" class="text-white">Contact</a>
-              </h6>
-            </div>
-            <!-- Grid column -->
-          </div>
-          <!-- Grid row-->
-        </section>
-        <!-- Section: Links -->
+                        <!-- Grid column -->
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="index.html" class="text-white">Contact</a>
+                            </h6>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row-->
+            </section>
+            <!-- Section: Links -->
 
-        <hr class="my-5" />
+            <hr class="my-5" />
 
-        <!-- Section: Text -->
-        <section class="mb-5">
-          <div class="text row d-flex justify-content-center">
-            <div class="col-lg-8">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-                distinctio earum repellat quaerat voluptatibus placeat nam,
-                commodi optio pariatur est quia magnam eum harum corrupti
-                dicta, aliquam sequi voluptate quas.
-              </p>
-            </div>
-          </div>
-        </section>
-        <!-- Section: Text -->
+            <!-- Section: Text -->
+            <section class="mb-5">
+                <div class="text row d-flex justify-content-center">
+                    <div class="col-lg-8">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                            distinctio earum repellat quaerat voluptatibus placeat nam,
+                            commodi optio pariatur est quia magnam eum harum corrupti
+                            dicta, aliquam sequi voluptate quas.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- Section: Text -->
 
-        <!-- Section: Social -->
-       <center> <section class="text-center mb-5">
-        <div class="social">
+            <!-- Section: Social -->
+            <center>
+                <section class="text-center mb-5">
+                    <div class="social">
 
-          <a href="" class="text-white me-4">
-            <i class="fa fa-facebook-f"></i>
-          </a>
-          <a href="" class="text-white me-4">
-            <i class="fa fa-twitter"></i>
-          </a>
-          <a href="" class="text-white me-4">
-            <i class="fa fa-google"></i>
-          </a>
-          <a href="" class="text-white me-4">
-            <i class="fa fa-instagram"></i>
-          </a>
-          <a href="" class="text-white me-4">
-            <i class="fa fa-linkedin"></i>
-          </a>
-          <a href="" class="text-white me-4">
-            <i class="fa fa-github"></i>
-          </a>
+                        <a href="" class="text-white me-4">
+                            <i class="fa fa-facebook-f"></i>
+                        </a>
+                        <a href="" class="text-white me-4">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="" class="text-white me-4">
+                            <i class="fa fa-google"></i>
+                        </a>
+                        <a href="" class="text-white me-4">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a href="" class="text-white me-4">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a href="" class="text-white me-4">
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </div>
+                </section>
+            </center>
+            <!-- Section: Social -->
         </div>
-        </section></center>
-        <!-- Section: Social -->
-      </div>
-      <!-- Grid container -->
-      <br><br>
-      <!-- <div class="shivani">
+        <!-- Grid container -->
+        <br><br>
+        <!-- <div class="shivani">
        <center> Designed by : SHIVANI SARASWAT</center><br></div>
     </div> -->
 
-      <!-- Copyright -->
-      <div class="text-center p-3 rest" style="background-color: rgba(0, 0, 0, 0.2)">
+        <!-- Copyright -->
+        <div class="text-center p-3 rest" style="background-color: rgba(0, 0, 0, 0.2)">
 
-        <center><p>Copyright:  &#169; SHIVANI SARASWAT &#8482; 2022</p></center>
+            <center>
+                <p>Copyright: &#169; SHIVANI SARASWAT &#8482; 2022</p>
+            </center>
 
-      </div>
-      <!-- Copyright -->
+        </div>
+        <!-- Copyright -->
     </footer>
     <!-- Footer -->
 
-  <!-- End of .container -->
+    <!-- End of .container -->
 
-  <script>
-console.log("hello world");
-function myFunction() {
-   var element = document.body;
-   element.classList.toggle("dark-mode");
-   var heading = document.getElementById("p-heading");
-   heading.classList.toggle("p-dark");
-   var heading2 = document.getElementById("p-heading2");
-   heading2.classList.toggle("p-dark");
-}
-  </script>
+    <script>
+        console.log("hello world");
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+            var heading = document.getElementById("p-heading");
+            heading.classList.toggle("p-dark");
+            var heading2 = document.getElementById("p-heading2");
+            heading2.classList.toggle("p-dark");
+        }
+    </script>
 
 </body>
+
 </html>

@@ -21,8 +21,8 @@
 }
 
 .container {
-    padding: 60px 0;
-    width: 90%;
+    padding: 60px ;
+    height: fit-content;
     max-width: 900px;
     margin: 0 auto;
 }
@@ -30,8 +30,19 @@
 .container-nav {
     display: flex;
     justify-content: space-between;
-}
 
+}
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: fit-content;
+    text-align: center;
+}
+.logo{
+    scale: 2;
+}
 @media only screen and (max-width: 710px) {
     .container-nav {
         display: flex;
@@ -44,12 +55,13 @@ h1 {
     font-weight: 800;
     color: rgb(32, 190, 211);
     font-size: 2.5rem;
-    margin: -1rem;
+    padding: 0;
+    margin: 0;
     text-shadow: 3px 3px 3px white;
     cursor: pointer;
     transition-duration: 0.1s;
-    position: absolute;
-    left:50px;
+    width: fit-content;
+  
 }
 
 
@@ -97,12 +109,19 @@ h1 {
     }
     .subtitle {
         text-align: center;
+        width: fit-content;
     }
+  .subtitle p{
+   position: relative;
+   left: 40px;
+}
+
 }
 
 .subtitle {
     font-weight: 700;
-    color: rgb(79, 115, 109);
+    /* color: rgb(79, 115, 109); */
+    color: skyblue;
     font-size: 0.75rem;
     margin: 0;
   /* position: absolute; */
@@ -114,9 +133,11 @@ nav ul {
     display: flex;
     justify-content: center;
     position: absolute;
+
     right: 0;
-    margin-top: 0;
-    padding: 0;
+    margin-top: 25px;
+    
+    padding: 5px;
 }
 
 @media only screen and (max-width: 428px) {

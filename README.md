@@ -13,8 +13,8 @@
 
 ## About
 
-Photo gallery website created using HTML and CSS. Which can be used by
-passionate photographers as a showcase of their skill.
+Photo gallery website created using HTML and CSS which can be used by
+passionate photographers as a showcase of their skills.
 
 ### How to Contribute to this repository
 
@@ -121,7 +121,7 @@ git push -u origin pr1
 **15.** Voila! You have made a PR to the project. Sit back and relax while your PR is reviewed by the maintainers.
 
 
-## REPO STATUS
+## REPOSITORY STATUS
 
 ![GitHub PR Open](https://img.shields.io/github/issues-pr/shivani1706/photoholic?style=for-the-badge&color=aqua)
 ![GitHub PR closed](https://img.shields.io/github/issues-pr-closed-raw/shivani1706/photoholic?style=for-the-badge&color=blue)

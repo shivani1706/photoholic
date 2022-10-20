@@ -1,4 +1,4 @@
-# Photoholic
+# PHOTOHOLIC
 
 ## _The Only Gallery Website You Need !_
 
@@ -11,7 +11,7 @@
   <img src="https://user-images.githubusercontent.com/77433607/194158088-f0136da2-1cce-43b3-a758-e47a1f9c4a6b.png" width="500" /> 
 </p>
 
-## About
+## ABOUT
 
 Photo gallery website created using HTML and CSS which can be used by
 passionate photographers as a showcase of their skills.
@@ -47,7 +47,7 @@ git add . git commit -m "Your commit Message" git push origin branch-name
 - Make Sure you Give proper name to your files describing the addition.
 - Also Make Sure you comment your code wherever necessary.
 
-## Features
+## FEATURES
 
 - Upload your photos.
 - Showcase your photos to the world.

@@ -116,7 +116,9 @@ h1 {
     font-weight: 700;
     color: rgb(79, 115, 109);
     font-size: 0.75rem;
-    margin: 0;
+    position: absolute;
+    float:left;
+    left: 17rem;
     /* position: absolute; */
 }
 
